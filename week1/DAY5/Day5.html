@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Counter App</title>
+ 
+  <style>
+    body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+
+.counter-container {
+  text-align: center;
+  background: white;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#counter-value {
+  font-size: 3rem;
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 1.2rem;
+  margin: 5px;
+  cursor: pointer;
+}
+
+#message {
+  color: red;
+  height: 20px;
+}
+
+  </style>
+</head>
+<body>
+
+  <div class="counter-container">
+    <h1>Counter App</h1>
+
+    <p id="counter-value">0</p>
+    <p id="message"></p>
+
+    <button id="decrement">-</button>
+    <button id="increment">+</button>
+  </div>
+
+  <script src="Day5.js"></script>
+</body>
+</html>

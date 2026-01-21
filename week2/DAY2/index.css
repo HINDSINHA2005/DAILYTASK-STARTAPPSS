@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: rgb(105, 72, 31);
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+#products.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
+  gap: 15px;
+}
+
+#products.list {
+  display: block;
+}
+
+.product {
+  border: 1px solid #ccc;
+  padding: 15px;
+}
+
+.product.list {
+  display: flex;
+  justify-content: space-between;
+}

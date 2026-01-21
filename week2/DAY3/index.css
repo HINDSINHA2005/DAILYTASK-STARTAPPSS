@@ -1,0 +1,14 @@
+body{
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column ;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+body.dark{
+    background-color: #121212;
+    color: white;
+}
