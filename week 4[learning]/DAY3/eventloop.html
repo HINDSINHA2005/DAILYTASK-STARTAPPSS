@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Click Counter</title>
+</head>
+<body>
+
+  <h2>Button Click Counter</h2>
+  <p>Clicks: <span id="count">0</span></p>
+  <button id="countBtn">Click Me</button>
+
+  <script>
+    let clickCount = 0;
+    const btn = document.getElementById("countBtn");
+    const display = document.getElementById("count");
+
+    btn.addEventListener("click", function () {
+      
+      for (let i = 0; i < 1; i++) {
+        clickCount++;
+      }
+      display.innerText = clickCount;
+    });
+  </script>
+
+</body>
+</html>
