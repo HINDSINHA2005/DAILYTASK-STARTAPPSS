@@ -1,0 +1,43 @@
+/* Reset
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+nav {
+  background-color: #1e293b;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 16px;
+}
+
+/* Active link (NavLink) */
+nav a.active {
+  color: #38bdf8;
+  font-weight: bold;
+  border-bottom: 2px solid #38bdf8;
+  padding-bottom: 4px;
+}
+
+/* Page content */
+.page {
+  padding: 40px;
+  text-align: center;
+}
+
+.page h2 {
+  margin-bottom: 10px;
+}
+
+.page p {
+  color: #555;
+} 

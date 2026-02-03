@@ -1,0 +1,79 @@
+/* Page layout */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+}
+
+/* App heading */
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  color: #222;
+}
+
+/* Search box */
+input {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 14px;
+  width: 280px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+input:focus {
+  border-color: #007bff;
+}
+
+/* Movie list grid */
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+}
+
+/* Single movie card */
+.movie-card {
+  list-style: none;
+  background-color: #fff;
+  border-radius: 8px;
+  width: 200px;
+  margin: 12px;
+  padding: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.movie-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+
+/* Poster image */
+.movie-card img {
+  width: 100%;
+  height: 300px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+/* Movie title */
+.movie-card h4 {
+  margin: 10px 0 4px;
+  font-size: 15px;
+  color: #333;
+}
+
+/* Movie year */
+.movie-card p {
+  margin: 0;
+  font-size: 14px;
+  color: #777;
+  text-align: center;
+}
